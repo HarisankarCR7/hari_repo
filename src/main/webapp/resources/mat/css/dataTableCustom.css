@@ -1,0 +1,82 @@
+tr.selected td{background-color:#ffee58 !important;}
+
+tr.edited td{background-color:#0080c0 !important;}
+
+#margin{
+	
+	margin-top:13%;
+}
+table.display {
+    width: 100%;
+    clear: both;
+}
+ 
+table.display td
+ {
+    padding: 5px;
+   border-right: 1px solid #c0c0c0;
+      border-bottom: 1px solid grey;
+    background:white;
+    
+}
+table.display thead {
+    text-align: right;
+     background: #00acc1;
+      color:white;
+     
+}
+
+ .ui-autocomplete {
+            max-height: 100px;
+            overflow-y: auto;
+         
+            overflow-x: hidden;
+           
+            padding-right: 20px;
+           
+    }
+
+.ui-helper-hidden-accessible { position: absolute; left:-999em;  }
+
+
+#SAVE{z-index:0}
+#clear{z-index:0}
+#delete{z-index:0}
+#create{z-index:0}
+#update{z-index:0}
+#bookTicket{z-index:0}
+
+
+
+
+
+/*----Textbox size change-----*/
+input:not([type]), input[type="text"],select
+{
+	height:32px !important;
+	font-family: 'Open Sans Light','Open Sans',sans-serif !important;
+	font-size:13px !important;
+}
+
+label{
+
+	font-size:13px !important;
+	color: #1285B3!important
+}
+.searchIc{
+color: #1285B3!important;
+z-index:0!important;
+
+}
+
+
+#dtl-datatable{
+	word-wrap: break-word;
+}
+
+th,td  {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
