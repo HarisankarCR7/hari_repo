@@ -33,6 +33,8 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  * @author www.codejava.net
  *
  */
+
+// Testing by Harisa
 @Configuration
 @EnableWebMvc
 //@EnableTransactionManagement
